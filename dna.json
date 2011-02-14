@@ -1,0 +1,25 @@
+{
+  "mysql": {
+    "server_root_password":  "root",
+    "bind_address": "127.0.0.1"
+  },
+  "passenger_apache2" : {
+    "version" : "3.0.2",
+    "root_path" : "/usr/lib/ruby/gems/1.9.1/gems/passenger-3.0.2"
+  },
+  "postgresql" : {
+    "version" : "8.3"
+  },
+  "gems": [
+    { "name" : "rake" },
+    { "name" : "rails" },
+    { "name" : "passenger" },
+    { "name" : "fastthread" },
+    { "name" : "capistrano" },
+    { "name" : "bundler" }
+  ],
+  "recipes": [
+    "apache2",
+    "python"
+  ]
+}
