@@ -3,9 +3,9 @@
     "version" : "8.3"
   },
   "recipes": [
+    "python",
     "postfix",
     "apache2",
-    "python",
     "postgresql::server"
   ]
 }
